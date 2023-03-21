@@ -1,5 +1,5 @@
 import React from "react";
-// import HeroImage from "../assets/heroImage.png";
+
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const Home = () => {
   return (
