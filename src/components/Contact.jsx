@@ -1,16 +1,16 @@
-import { useState } from "react";
+// import { useState } from "react";
 import React from "react";
 
 const Contact = () => {
-  const [name, setName] = useState();
-  const [email, setEmail] = useState();
-  const [message, setMessage] = useState();
+  // const [name, setName] = useState();
+  // const [email, setEmail] = useState();
+  // const [message, setMessage] = useState();
 
   const clearForm = () => {
     alert("Thank you for connecting. I will be in touch soon!");
-    setName("");
-    setEmail("");
-    setMessage("");
+    // setName("");
+    // setEmail("");
+    // setMessage("");
   };
 
   return (
