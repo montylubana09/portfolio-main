@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-scroll";
 import { BsFillArrowRightCircleFill } from "react-icons/bs";
 const Home = () => {
   return (
@@ -16,12 +16,14 @@ const Home = () => {
             I am a full stack developer with over 2+ years experience.
           </p>
           <div>
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
-              Portfolio
-              <span className="group-hover:rotate-90 duration-300  ">
-                <BsFillArrowRightCircleFill size={24} className="ml-1" />
-              </span>
-            </button>
+            <Link to="portfolio" smooth duration={1600}>
+              <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer">
+                Portfolio
+                <span className="group-hover:rotate-90 duration-300  ">
+                  <BsFillArrowRightCircleFill size={24} className="ml-1" />
+                </span>
+              </button>
+            </Link>
           </div>
         </div>
         <div>
