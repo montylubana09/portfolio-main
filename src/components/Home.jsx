@@ -13,7 +13,7 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            I am a full stack developer with over 2+ years experience.
+          Experienced MERN Stack Developer with Expertise in React and React Native for High-Quality Application Development
           </p>
           <div>
             <Link to="portfolio" smooth duration={1600}>

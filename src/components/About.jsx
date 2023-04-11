@@ -13,20 +13,14 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-20 ">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fuga nulla
-          sequi quo labore minus vel eos ipsa? Nisi minus accusantium
-          repudiandae magni. Amet similique natus nemo eius rerum quam aperiam
-          nihil, molestias dolorem consequatur qui suscipit itaque ipsa
-          repudiandae minus illum tenetur. Vel consectetur blanditiis
-          voluptatibus tenetur praesentium non officiis!
+        As a software developer with over two years of experience in the field, I have focused primarily on developing applications using the React and React Native platforms. My expertise lies in building applications in the MERN stack, which includes MongoDB, ExpressJS, ReactJS, and NodeJS.
+
+During my career, I have developed a deep understanding of the React and React Native frameworks and have become proficient in using the latest development tools and technologies to create high-quality, efficient applications. I have experience working on a wide range of projects, including web applications, mobile applications, and complex enterprise solutions.
         </p>
         <br />
 
         <p className="text-xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde repellat
-          dolores accusamus earum at nulla dicta recusandae facere, omnis amet,
-          similique sunt harum dignissimos iusto laboriosam a soluta molestias
-          officia!
+        My experience as a software developer has equipped me with the skills, knowledge, and expertise necessary to take on challenging development projects and deliver high-quality results.
         </p>
       </div>
     </div>
