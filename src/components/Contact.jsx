@@ -9,36 +9,35 @@ const Contact = () => {
   const clearForm = (event) => {
     event.preventDefault();
     const formData = new FormData();
-  formData.append("name", name);
-  formData.append("email", email);
-  formData.append("message", message);
-  
-  fetch("https://getform.io/f/0e8a0aac-36bf-4d9e-b83f-cd70be71e459", {
-    method: "POST",
-    body: formData,
-  })
-    .then((response) => {
-      if (response.ok) {
-        console.log("Form submitted successfully");
-        alert("Thank you for connecting. I will be in touch soon!");
-        setName("");
-        setEmail("");
-        setMessage("");
-      } else {
-        console.error("Form submission failed");
-        // do something after form submission fails, such as showing an error message
-      }
-    })
-    .catch((error) => {
-      console.error("Error submitting form:", error);
-    });
-};
+    formData.append("name", name);
+    formData.append("email", email);
+    formData.append("message", message);
 
+    fetch("https://getform.io/f/0e8a0aac-36bf-4d9e-b83f-cd70be71e459", {
+      method: "POST",
+      body: formData,
+    })
+      .then((response) => {
+        if (response.ok) {
+          console.log("Form submitted successfully");
+          alert("Thank you for connecting. I will be in touch soon!");
+          setName("");
+          setEmail("");
+          setMessage("");
+        } else {
+          console.error("Form submission failed");
+          // do something after form submission fails, such as showing an error message
+        }
+      })
+      .catch((error) => {
+        console.error("Error submitting form:", error);
+      });
+  };
 
   return (
     <div
       name="contact"
-      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 text-white"
+      className="w-full h-fit bg-gradient-to-b from-black to-gray-800 text-white"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
         <div className="pb-8">

@@ -13,7 +13,8 @@ const Home = () => {
             I'm a Full Stack Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-          Experienced MERN Stack Developer with Expertise in React and React Native for High-Quality Application Development
+            Experienced MERN Stack Developer with Expertise in React and React
+            Native for High-Quality Application Development
           </p>
           <div>
             <Link to="portfolio" smooth duration={1600}>
@@ -26,13 +27,7 @@ const Home = () => {
             </Link>
           </div>
         </div>
-        <div>
-          {/* <img
-            src={HeroImage}
-            alt="my profile"
-            className="rounded-2xl mx-auto w-2/3 md:w-full"
-          /> */}
-        </div>
+        <div></div>
       </div>
     </div>
   );
